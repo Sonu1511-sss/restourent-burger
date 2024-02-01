@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Restorent Landing Page Design</title>
+    <!-- link icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<!-- sm: -->
+<!-- lg: -->
+
+<body>
+    <main class="w-full h-full p-10">
+        <!-- desktop header  -->
+        <header class="w-full h-20 max-sm:hidden lg:block">
+            <nav class="flex justify-between items-center h-full p-5 ">
+                <div class="menu">
+                    <ul class="flex gap-10 font-bold">
+                        <li><a href="#" class="hover:text-lime-500">Home</a></li>
+                        <li><a href="#" class="hover:text-lime-500">Product</a></li>
+                        <li><a href="#" class="hover:text-lime-500">Recipe</a></li>
+                        <li><a href="#" class="hover:text-lime-500">About</a></li>
+                    </ul>
+                </div>
+                <div class="log-btn flex gap-4">
+                    <button
+                        class="lg:bg-orange-400 sm:bg-blue-400  px-8 py-2 font-bold rounded-3xl text-white shadow-2xl">Log
+                        in </button>
+                    <button class="bg-orange-100 px-8 py-2 font-bold rounded-3xl text-amber-500 shadow-2xl">Sign Up
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <!-- mobile header -->
+        <header class="w-full h-20 max-sm:block lg:hidden">
+            <nav class="flex justify-between items-center h-full p-5 ">
+                <div class="menu font-bold">
+                    logo
+                </div>
+                <div >
+                    <i class="ri-menu-2-line"></i>
+                </div>
+            </nav>
+        </header>
+        <section   class="hero-section w-full h-96  flex  justify-start">
+            <article class="">
+                <img class="h-[28rem] w-[29rem]" src="burger-removebg-preview.png" alt="">
+                <h3 class="font-medium text-[2.8rem] px-[4rem]  " >Classic Burger</h3>
+                <div class="flex  gap-[2rem] py-[1rem] px-[4rem]   ">
+                 <h4 class="text-current border-gray-900 text-gray-500">Fat -<span class=" text-black font-semibold">26g</span></h4>
+                 <h4 class="text-current border-gray-900 text-gray-500">Saturates -<span class=" text-black font-semibold">10g</span></h4>
+                 <h4 class="text-current border-gray-900 text-gray-500">sugars -<span class=" text-black font-semibold">18g</span></h4>
+                 <h4 class="text-current border-gray-900 text-gray-500">salt -<span class=" text-black font-semibold">1g</span></h4>
+                </div>
+                <p class=" w-[90%] text-start   px-[4rem] text-gray-500 ">The classic burger is an all time BBQ favourite! This super easy homemade beef burger recipe gives you delicious patties, packed with onions and herbs for extra flavour, that are perfect for topping with cheese, lettuce and tomato, and sandwiching between floury buns.</p>
+                <div class="flex justify-start py-[1rem]  ">
+                <h3 class=" text-[2rem] font-bold px-[4rem]"><span class=" font-blod text-gray-500  text-[2rem]">-</span> 0 <span class=" font-bold text-emerald-400 text-[2rem]">+</span></h3>
+                <h3 class=" text-[2rem] font-bold px-[4rem]">$16</h3>
+                <button class="uppercase bg- text-emerald-400 bg-teal-100 p-[0.7rem] rounded-3xl "><i class="ri-shopping-cart-2-line text-emerald-400text-emerald-400"></i> Add To CARD</button>
+                </div>
+               
+            </article>
+            <article class="flex-column justify-start gap-[5rem]">
+                <div class="flex gap-[5rem]">
+            <div class="h-[21rem] w-[19rem]  ">
+              <img class="h-[7rem] w-[10rem] mx-[5rem]  " src="double_burger-removebg-preview.png" alt="">
+              <h3 class="font-bold text-[1.3rem] px-[4rem] py-[1rem]  " >Doubble Burger</h3>
+              <p class="text-center "> Heat the olive oil in a frying pan, add the onion and cook for 5 minutes until softened.</p><br>
+              <div class="flex justify-start gap-[5rem]  ">
+                <h3 class=" text-[1rem] font-bold "><span class=" font-blod text-gray-500  text-[1rem]">-</span> 0 <span class=" font-bold text-emerald-400 text-[1rem]">+</span></h3>
+                <h3 class=" text-[1rem] font-bold ">$16</h3>
+                <button class="uppercase bg- text-emerald-400 bg-teal-100 p-[0.7rem] "><i class="ri-shopping-cart-2-line text-emerald-400text-emerald-400"></i> </button>
+                </div>
+            </div>
+            <div class="h-[21rem] w-[19rem] ">
+                <img class="h-[7rem] w-[10rem] mx-[5rem]  " src="green_burger-removebg-preview.png" alt="">
+                <h3 class="font-bold text-[1.3rem] px-[4rem] py-[1rem]  " >Green Burger</h3>
+                <p class="text-center "> In a bowl, combine the beef mince with the herbs and the egg Season, add the onions</p><br>
+                <div class="flex justify-evenly  gap-[4rem]  ">
+                  <h3 class=" text-[1rem] font-bold "><span class=" font-blod text-gray-500  text-[1rem]">-</span> 0 <span class=" font-bold text-emerald-400 text-[1rem]">+</span></h3>
+                  <h3 class=" text-[1rem] font-bold ">$16</h3>
+                  <button class="uppercase bg- text-emerald-400 bg-teal-100 p-[0.7rem] "><i class="ri-shopping-cart-2-line text-emerald-400text-emerald-400"></i> </button>
+                  </div>
+              </div>
+            </div><br><br>
+            <div class="flex gap-[5rem]">
+                <div class="h-[21rem] w-[19rem]  ">
+                  <img class="h-[7rem] w-[10rem] mx-[5rem]  " src="chili-removebg-preview.png" alt="">
+                  <h3 class="font-bold text-[1.3rem] px-[4rem] py-[1rem]  " >Red Chili Burger</h3>
+                  <p class="text-center "> Cook the turgers on a preheated burberar or griddle formates on rach side.</p><br>
+                  <div class="flex justify-start gap-[5rem]  ">
+                    <h3 class=" text-[1rem] font-bold "><span class=" font-blod text-gray-500  text-[1rem]">-</span> 0 <span class=" font-bold text-emerald-400 text-[1rem]">+</span></h3>
+                    <h3 class=" text-[1rem] font-bold ">$16</h3>
+                    <button class="uppercase bg- text-emerald-400 bg-teal-100 p-[0.7rem] "><i class="ri-shopping-cart-2-line text-emerald-400text-emerald-400"></i> </button>
+                    </div>
+                </div>
+                <div class="h-[21rem] w-[19rem]  ">
+                    <img class="h-[7rem] w-[10rem] mx-[5rem]  " src="helthy-removebg-preview.png" alt="">
+                    <h3 class="font-bold text-[1.3rem] px-[4rem] py-[1rem]  " >Healthy Burger</h3>
+                    <p class="text-center "> Meanwhile, lightly toast the cut-sides of the buns on the barbecue. Fill with the...</p><br>
+                    <div class="flex justify-start gap-[5rem]  ">
+                      <h3 class=" text-[1rem] font-bold "><span class=" font-blod text-gray-500  text-[1rem]">-</span> 0 <span class=" font-bold text-emerald-400 text-[1rem]">+</span></h3>
+                      <h3 class=" text-[1rem] font-bold ">$16</h3>
+                      <button class="uppercase bg- text-emerald-400 bg-teal-100 p-[0.7rem] "><i class="ri-shopping-cart-2-line text-emerald-400text-emerald-400"></i> </button>
+                      </div>
+                  </div>
+                </div>
+            </article>
+
+        </section>
+    </main>
+</body>
+
+</html>
